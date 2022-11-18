@@ -36,21 +36,22 @@ body {
 
 .right > video {
   margin-top: 10vh;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 
 .right-container {
   width: 100%;
   display: flex;
   align-items: flex-end;
+  /* justify-content: space-between; */
   /* flex-direction: column; */
   /* margin-bottom: 30px;   */
 }
 
 .right-container > object {
-  width: 25vh;
-  height: 25vh;
+  width: 20vh;
+  height: 20vh;
 }
 
 .socials {
@@ -78,5 +79,13 @@ body {
     margin-top: 10vh;
     width: 400px;
     height: 400px;
+  }  
+}
+
+@media only screen and (max-height: 900px) {
+  .right > video {
+    margin-top: 10vh;
+    width: 500px;
+    height: 500px;
   }  
 }
