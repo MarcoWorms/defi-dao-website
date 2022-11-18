@@ -8,6 +8,8 @@ body {
   background-color: #1b1b1b;
   width: 100vw;
   height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .top-left {
@@ -27,22 +29,33 @@ body {
   right: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
+  width: 60vh;
 }
 
 .right > object {
-  margin-top: 100px;
+  margin-top: 10vh;
+  width: 50vh;
+  height: 50vh;
 }
 
 .right-container {
+  width: 100%;
   flex-direction: column;
-  margin-top: 30px;
+  /* margin-top: 30px;   */
+}
+
+.right-container > object {
+  width: 25vh;
+  height: 25vh;
 }
 
 .socials {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 50px;
 }
 
 .socials a {
