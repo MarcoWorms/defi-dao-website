@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  width: 100vw;
+  height: 100vh;
+}
+
+.top-left {
+  position:absolute;
+  top: 0;
+  left: 50px;
+}
+
+.bottom-left {
+  position:absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.right {
+  position:absolute;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.right > object {
+  margin-top: 100px;
+}
+
+.right-container {
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials a {
+  margin-right: 20px;
+}
+
+.socials a:hover {
+  color: #bbb;
+}
