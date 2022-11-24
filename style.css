@@ -38,6 +38,7 @@ body {
   margin-top: 10vh;
   width: 600px;
   height: 600px;
+  object-fit: cover;
 }
 
 .right-container {
@@ -70,8 +71,8 @@ body {
 }
 
 .socials a img {
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
 }
 
 @media only screen and (max-height: 770px) {
